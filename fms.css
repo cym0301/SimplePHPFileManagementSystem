@@ -1,0 +1,74 @@
+div {
+    display: block;
+}
+
+.container-fluid {
+    background-image: url('./img/background.jpg');
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.loginDiv {
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    opacity: 0.6;
+    margin: auto;
+    padding: 5px;
+}
+
+.loginWord {
+    font-size: 30px;
+}
+
+.signOutDiv {
+    text-align: right; 
+    display: block;
+}
+
+#fileNavigationPanel {
+    float: left;
+}
+
+.navFolderName {
+    font-size: 24px;
+}
+
+#buttonControlPanel {
+    float: right;
+    
+}
+
+.dropzone {
+    border-radius: 10px;
+    opacity: 0.7 !important; 
+}
+
+.dropzone:hover{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+table {
+    background-color: #F3F3F3;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.8;
+}
+
+table thead {
+    background-color: #FE4902;
+    color: #FFF;
+    font-weight: bold;
+    cursor: default;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #4C8BF5;
+  color: #fff;
+}
